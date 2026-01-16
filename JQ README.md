@@ -25,7 +25,7 @@ JSON is the de-facto data format across:
 * Tools like Docker, Terraform, Jenkins, Ansible
 * Log and config files
 
-~jq is used because:
+jq is used because:
 
 * It removes the need to manually read messy JSON
 * Allows instant extraction of key information
@@ -55,7 +55,6 @@ JSON is the de-facto data format across:
 | ------------------------------------------------------------------------------ | ---------------------- |
 | [https://stedolan.github.io/jq/manual/](https://stedolan.github.io/jq/manual/) | Official jq manual     |
 | [https://github.com/jqlang/jq](https://github.com/jqlang/jq)                   | Source Code Repository |
-| [https://jqplay.org/](https://jqplay.org/)                                     | Online jq Playground   |
 | [https://learnxinyminutes.com/docs/jq/](https://learnxinyminutes.com/docs/jq/) | Learning Reference     |
 
 ---
