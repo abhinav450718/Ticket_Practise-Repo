@@ -1,11 +1,24 @@
 # JQ Intro Documentation
 
 ---
+
 ## Document Details
 
-| Author    | Created on | Version   | Last updated by | Last edited on |
-| --------- | ---------- | --------- | --------------- | -------------- |
-| Abhinav Sikarwar | 16-01-2026  | Version 1 | Abhinav Sikarwar       | 17-01-2026       |
+| Author           | Created on | Version   | Last updated by  | Last edited on |
+| ---------------- | ---------- | --------- | ---------------- | -------------- |
+| Abhinav Sikarwar | 16-01-2026 | Version 1 | Abhinav Sikarwar | 17-01-2026     |
+
+---
+
+## Index
+
+1. Introduction
+2. Why jq?
+3. Key Features
+4. Contact Information
+5. References
+6. End Note
+
 ---
 
 ## Introduction
@@ -48,6 +61,18 @@ jq is used because:
 
 ---
 
+## Contact Information
+
+For any questions, clarifications, or review feedback related to this documentation, please contact:
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Name         | Abhinav Sikarwar                                                    |
+| Role         | DevOps Engineer                                                     |
+| Email        | [abhinavsikarwar011@gmail.com](mailto:abhinavsikarwar011@gmail.com) |
+| Team         | Saarthi                                                             |
+ 
+---
 
 ## References
 
