@@ -16,7 +16,7 @@
 
 | Software | Version           |
 | -------- | ----------------- |
-| jq       | Fill version here |
+| jq       |      jq-1.7       |
 
 ---
 
