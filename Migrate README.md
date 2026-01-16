@@ -1,0 +1,100 @@
+# Migrate Intro Documentation
+
+---
+
+## Document Details
+
+| Author           | Created on | Version   | Last updated by  | Last edited on |
+| ---------------- | ---------- | --------- | ---------------- | -------------- |
+| Abhinav Sikarwar | 17-01-2026 | Version 1 | Abhinav Sikarwar | 17-01-2026     |
+
+---
+
+## Introduction
+
+`migrate` (Database Migration Tool) is a utility commonly used to **manage, apply, and track database schema changes** across environments.
+Instead of manually altering database tables using raw SQL commands, migrate allows developers and DevOps engineers to version-control database structure updates in a **repeatable, auditable, and consistent** manner.
+
+Migrate ensures the database schema evolves safely as applications grow — enabling teams to sync changes across **development, testing, staging, and production** systems.
+
+---
+
+## Why Migrate?
+
+Modern applications need:
+
+* Frequent schema modifications
+* Table additions/removals
+* Index or constraint changes
+* Data transformations
+* Environment synchronization
+
+Doing this manually causes:
+⚠️ Version mismatches
+⚠️ Broken deployments
+⚠️ Rollback issues
+⚠️ Human errors
+
+Migration tools solve this challenge by:
+
+✔ Versioning database changes
+✔ Automating schema application
+✔ Allowing controlled rollbacks
+✔ Ensuring all environments stay aligned
+✔ Supporting CI/CD database deployment workflows
+
+Most DevOps teams treat database migrations with the same importance as **code releases**, making migrate essential in modern delivery pipelines.
+
+---
+
+## What Migrate Does
+
+At its core, migrate:
+
+* Tracks schema evolution as **incremental scripts**
+* Applies database modifications in order
+* Ensures changes are **not re-run accidentally**
+* Offers **rollback/down** methods to reverse changes
+* Works across multiple environments, databases & pipelines
+
+Typical workflow:
+1️⃣ Create a migration file
+2️⃣ Write `up` script (apply change)
+3️⃣ Write `down` script (undo change)
+4️⃣ Run migrate to apply it safely
+5️⃣ Version recorded & tracked
+
+---
+
+## Key Features
+
+| Feature                       | Description                                                            |
+| ----------------------------- | ---------------------------------------------------------------------- |
+| Version-Controlled Migrations | Every schema change has a unique version and order                     |
+| Forward & Backward Changes    | Supports both applying (`up`) and rolling back (`down`) scripts        |
+| Multi-Database Support        | Works with major DBs like MySQL, PostgreSQL, MongoDB, SQLite, and more |
+| CI/CD Friendly                | Can be integrated into deployment pipelines & automated workflows      |
+| Environment Consistency       | Ensures Dev, QA, Stage, and Prod share same schema structure           |
+| Safe & Repeatable             | Prevents duplicate execution and allows safe re-runs                   |
+| Script-Based                  | Uses SQL/script files so changes are visible, reviewable & auditable   |
+
+---
+
+## References
+
+| Links                                                                                        | Descriptions                        |
+| -------------------------------------------------------------------------------------------- | ----------------------------------- |
+| [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)       | Popular Migrate Tool Repository     |
+| [https://flywaydb.org/documentation](https://flywaydb.org/documentation)                     | Flyway – Database Migration Toolkit |
+| [https://www.liquibase.org/documentation](https://www.liquibase.org/documentation)           | Liquibase Migration Framework       |
+| [https://martinfowler.com/articles/evodb.html](https://martinfowler.com/articles/evodb.html) | Thought Leadership on DB Evolution  |
+| [https://dev.to/tags/migrations](https://dev.to/tags/migrations)                             | Blogs & Tutorials on Migrations     |
+
+---
+
+## End Note
+
+Database migration tools play a crucial role in **managing schema evolution** safely and consistently across environments.
+They reduce errors, support automation, maintain version history, and make database changes part of the application delivery lifecycle.
+
+---
