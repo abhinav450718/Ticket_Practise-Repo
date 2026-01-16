@@ -16,7 +16,7 @@
 
 | Software | Version           |
 | -------- | ----------------- |
-| migrate  | Fill version here |
+| migrate  |       4.16.2      |
 
 ---
 
@@ -70,12 +70,14 @@ Bash executes migration commands.
 sudo apt-get update -y
 sudo apt-get install wget -y
 ```
+<img width="954" height="383" alt="image" src="https://github.com/user-attachments/assets/53751a2a-b566-45be-b4ad-5ea322be7857" />
 
 ### 2️⃣ Download migrate latest binary
 
 ```bash
 wget https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.linux-amd64.tar.gz
 ```
+<img width="1919" height="604" alt="image" src="https://github.com/user-attachments/assets/80cdfb38-fef7-40e1-a32e-e334295de473" />
 
 *(Replace version as needed)*
 
@@ -84,18 +86,21 @@ wget https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate
 ```bash
 tar -xvf migrate.linux-amd64.tar.gz
 ```
+<img width="621" height="107" alt="image" src="https://github.com/user-attachments/assets/6b03ce21-4f30-4464-8038-3089aec6b5d0" />
 
 ### 4️⃣ Move binary to PATH
 
 ```bash
 sudo mv migrate /usr/local/bin/
 ```
+<img width="628" height="23" alt="image" src="https://github.com/user-attachments/assets/d1047aae-7e8a-4a42-b22d-4f9b902b8106" />
 
 ### 5️⃣ Add executable permissions
 
 ```bash
 sudo chmod +x /usr/local/bin/migrate
 ```
+<img width="610" height="20" alt="image" src="https://github.com/user-attachments/assets/16098a48-8306-4d32-94f7-1c8193c1b5c1" />
 
 ### 6️⃣ Verify installation
 
@@ -106,8 +111,9 @@ migrate -version
 Expected output (example):
 
 ```
-v4.16.2
+4.16.2
 ```
+<img width="368" height="69" alt="image" src="https://github.com/user-attachments/assets/b25c8aac-ccfb-4479-a660-0fa55ec3537d" />
 
 ---
 
@@ -121,22 +127,14 @@ migrate create -ext sql -dir migrations create_users_table
 
 Output:
 
-```
-migrations/000001_create_users_table.up.sql
-migrations/000001_create_users_table.down.sql
-```
+<img width="890" height="86" alt="image" src="https://github.com/user-attachments/assets/c90b16c9-9c40-4977-bc1e-312294afc559" />
 
 ### 2️⃣ Check files exist
 
 ```bash
 ls migrations/
 ```
-
-### 3️⃣ Test migration apply (example: SQLite)
-
-```bash
-migrate -database sqlite3://sample.db -path migrations up
-```
+<img width="960" height="72" alt="image" src="https://github.com/user-attachments/assets/47f140a1-35bb-4bbd-bd5e-381ca973c8b4" />
 
 ---
 
@@ -157,6 +155,7 @@ migrate -database sqlite3://sample.db -path migrations up
 sudo rm /usr/local/bin/migrate
 rm -rf migrations/
 ```
+<img width="954" height="46" alt="image" src="https://github.com/user-attachments/assets/4a9475b4-d3f3-4c5c-80c1-1870b9333b51" />
 
 ---
 
