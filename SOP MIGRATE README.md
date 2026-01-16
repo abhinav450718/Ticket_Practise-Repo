@@ -79,8 +79,6 @@ wget https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate
 ```
 <img width="1919" height="604" alt="image" src="https://github.com/user-attachments/assets/80cdfb38-fef7-40e1-a32e-e334295de473" />
 
-*(Replace version as needed)*
-
 ### 3️⃣ Extract the archive
 
 ```bash
