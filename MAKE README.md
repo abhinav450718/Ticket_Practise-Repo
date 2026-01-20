@@ -117,11 +117,8 @@ For questions, clarifications, or review feedback related to this documentation,
 
 | Links                                                                                                          | Descriptions              |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| [https://www.gnu.org/software/make/manual/](https://www.gnu.org/software/make/manual/)                         | Official GNU Make Manual  |
-| [https://github.com/mirror/make](https://github.com/mirror/make)                                               | GNU Make Source Code      |
 | [https://makefiletutorial.com/](https://makefiletutorial.com/)                                                 | Beginner Friendly Guide   |
-| [https://opensource.com/article/18/8/what-how-makefile](https://opensource.com/article/18/8/what-how-makefile) | Makefile Learning Article |
-| [https://devhints.io/makefile](https://devhints.io/makefile)                                                   | Cheat Sheet               |
+
 
 ---
 
