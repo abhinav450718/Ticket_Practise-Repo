@@ -2,25 +2,27 @@
 
 ---
 
-## Document Details
+## Authors
 
-| Author           | Created on | Version   | Last updated by  | Last edited on |
-| ---------------- | ---------- | --------- | ---------------- | -------------- |
-| Abhinav Sikarwar | 17-01-2026 | Version 1 | Abhinav Sikarwar | 17-01-2026     |
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Abhinav Sikarwar | 2026-01-20 | 1.0     | Abhinav Sikarwar | 2026-01-20     |              |             |             |             |
 
 ---
 
 ## Index
 
-1. Introduction
-2. Why Make?
-3. What Make Does
-4. Key Features
-5. Contact Information
-6. References
-7. End Note
+1. [Introduction](#introduction)
+2. [Why Make?](#why-make)
+3. [What Make Does](#what-make-does)
+4. [Key Features](#key-features)
+5. [Contact Information](#contact-information)
+6. [References](#references)
+7. [End Note](#end-note)
 
 ---
+
+<a id="introduction"></a>
 
 ## Introduction
 
@@ -30,6 +32,8 @@ Using rules defined in a simple configuration file (`Makefile`), Make determines
 Make originated in the UNIX ecosystem and continues to be one of the **most widely used automation tools** in DevOps, CI/CD, and open-source projects.
 
 ---
+
+<a id="why-make"></a>
 
 ## Why Make?
 
@@ -62,6 +66,8 @@ Make continues to be a **foundation of build automation**, used directly or indi
 
 ---
 
+<a id="what-make-does"></a>
+
 ## What Make Does
 
 At its core, Make:
@@ -73,6 +79,8 @@ At its core, Make:
 ✔ Works with **any language or script**
 
 ---
+
+<a id="key-features"></a>
 
 ## Key Features
 
@@ -88,6 +96,8 @@ At its core, Make:
 
 ---
 
+<a id="contact-information"></a>
+
 ## Contact Information
 
 For questions, clarifications, or review feedback related to this documentation, please contact:
@@ -96,10 +106,12 @@ For questions, clarifications, or review feedback related to this documentation,
 | ------------ | ------------------------------------------------------------------- |
 | Name         | Abhinav Sikarwar                                                    |
 | Role         | DevOps Engineer                                                     |
-| Email        | [abhinavsikarwar011@gmail.com](mailto:abhinavsikarwar011@gmail.com) |
-| Team         |                             Saarthi                                  |
+| Email        | [abhinav.sikarwar@mygurukulam.co](mailto:abhinav.sikarwar@mygurukulam.co) |
+| Team         | Saarthi                                                             |
 
 ---
+
+<a id="references"></a>
 
 ## References
 
@@ -112,6 +124,8 @@ For questions, clarifications, or review feedback related to this documentation,
 | [https://devhints.io/makefile](https://devhints.io/makefile)                                                   | Cheat Sheet               |
 
 ---
+
+<a id="end-note"></a>
 
 ## End Note
 
