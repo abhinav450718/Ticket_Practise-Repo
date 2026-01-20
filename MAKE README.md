@@ -10,6 +10,18 @@
 
 ---
 
+## Index
+
+1. Introduction
+2. Why Make?
+3. What Make Does
+4. Key Features
+5. Contact Information
+6. References
+7. End Note
+
+---
+
 ## Introduction
 
 `make` is a powerful build automation utility commonly used in software development to **compile code, run workflows, manage dependencies, and automate repetitive tasks**.
@@ -25,7 +37,7 @@ Modern software projects often require:
 
 * Compiling source code
 * Running test suites
-* Packaging artefacts
+* Packaging artifacts
 * Regenerating files when dependencies change
 * Automating multi-step commands
 
@@ -70,9 +82,22 @@ At its core, Make:
 | Incremental Build Execution | Only rebuilds files that changed, saving time                       |
 | Dependency Handling         | Automatically runs prerequisite tasks before a target is executed   |
 | Extensible Command Support  | Can run shell commands, scripts, tests, docker builds, etc          |
-| Platform Agnostic           | Works on Linux, macOS, WSL, and even inside containers              |
+| Platform Agnostic           | Works on Linux, macOS, WSL, and inside containers                   |
 | Silent / Verbose Modes      | Control logging and output as per debugging requirements            |
 | Widely Adopted in DevOps    | Used in CI pipelines, automation scripts, and open-source workflows |
+
+---
+
+## Contact Information
+
+For questions, clarifications, or review feedback related to this documentation, please contact:
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Name         | Abhinav Sikarwar                                                    |
+| Role         | DevOps Engineer                                                     |
+| Email        | [abhinavsikarwar011@gmail.com](mailto:abhinavsikarwar011@gmail.com) |
+| Team         |                             Saarthi                                  |
 
 ---
 
@@ -93,5 +118,4 @@ At its core, Make:
 This document provides an introductory understanding of `make` — what it is, why it is used, and the key features that make it a foundational tool in build automation and DevOps practices.
 
 ---
-
 
