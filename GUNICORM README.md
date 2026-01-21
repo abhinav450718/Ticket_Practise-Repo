@@ -103,10 +103,6 @@ Client → Nginx → Gunicorn → Python App
 | Links                                                                                                                                                      | Descriptions              |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | [https://gunicorn.org/](https://gunicorn.org/)                                                                                                             | Official Gunicorn Website |
-| [https://docs.gunicorn.org/en/stable/](https://docs.gunicorn.org/en/stable/)                                                                               | Gunicorn Documentation    |
-| [https://flask.palletsprojects.com/en/latest/deploying/wsgi-servers/](https://flask.palletsprojects.com/en/latest/deploying/wsgi-servers/)                 | Flask + Gunicorn Guide    |
-| [https://www.djangoproject.com/howto/deployment/wsgi/gunicorn/](https://www.djangoproject.com/howto/deployment/wsgi/gunicorn/)                             | Django Deployment Guide   |
-| [https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-nginx/](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-nginx/) | Real Deployment Example   |
 
 ---
 
