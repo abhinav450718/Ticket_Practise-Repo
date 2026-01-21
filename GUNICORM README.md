@@ -2,13 +2,26 @@
 
 ---
 
-## Document Details
+## Authors
 
-| Author           | Created on | Version   | Last updated by  | Last edited on |
-| ---------------- | ---------- | --------- | ---------------- | -------------- |
-| Abhinav Sikarwar | 17-01-2026 | Version 1 | Abhinav Sikarwar | 17-01-2026     |
+| Author           | Created    | Version | Last updated by  | Last Edited On |  L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | 
+| Abhinav Sikarwar | 2026-01-17 | 1.0     | Abhinav Sikarwar | 2026-01-17     |              |             |             |             
 
 ---
+
+## Index
+
+1. [Introduction](#introduction)
+2. [Why Gunicorn?](#why-gunicorn)
+3. [What Gunicorn Does](#what-gunicorn-does)
+4. [Key Features](#key-features)
+5. [References](#references)
+6. [End Note](#end-note)
+
+---
+
+<a id="introduction"></a>
 
 ## Introduction
 
@@ -18,6 +31,8 @@ It acts as the bridge between a web application (such as Flask, FastAPI, or Djan
 Gunicorn is lightweight, reliable, battle-tested, and widely used across the Python ecosystem for running **API services, microservices, and backend applications**.
 
 ---
+
+<a id="why-gunicorn"></a>
 
 ## Why Gunicorn?
 
@@ -43,6 +58,8 @@ Gunicorn forms the deployment backbone of modern Python applications, especially
 
 ---
 
+<a id="what-gunicorn-does"></a>
+
 ## What Gunicorn Does
 
 Gunicorn acts as the server that:
@@ -52,9 +69,9 @@ Gunicorn acts as the server that:
 * Manages concurrency and throughput
 * Gracefully restarts workers on crash
 * Logs errors and runtime insights
-* Serves your WSGI-compatible application efficiently
+* Serves WSGI-compatible applications efficiently
 
-Typical Deployment Flow:
+**Typical Deployment Flow:**
 
 ```
 Client → Nginx → Gunicorn → Python App
@@ -62,20 +79,24 @@ Client → Nginx → Gunicorn → Python App
 
 ---
 
+<a id="key-features"></a>
+
 ## Key Features
 
-| Feature                     | Description                                                                   |
-| --------------------------- | ----------------------------------------------------------------------------- |
-| WSGI Compatible             | Works with frameworks like Flask, Django, FastAPI via WSGI standard           |
-| Multi-Worker Architecture   | Uses multiple worker processes to handle parallel request loads               |
-| Automatic Worker Management | Auto-restarts dead workers to ensure application uptime                       |
-| Flexible Worker Models      | Supports sync, async, gevent, eventlet, and threaded workers                  |
-| Lightweight and Fast        | Minimal overhead with high throughput                                         |
-| Nginx Friendly              | Designed to work behind reverse proxies for security & performance            |
-| Highly Configurable         | Tune workers, threads, keepalive, timeouts, logging, and environment settings |
-| Cloud & Container Ready     | Ideal for Docker, Kubernetes, and scalable API deployments                    |
+| Feature                     | Description                                                          |
+| --------------------------- | -------------------------------------------------------------------- |
+| WSGI Compatible             | Works with Flask, Django, FastAPI via WSGI standard                  |
+| Multi-Worker Architecture   | Uses multiple worker processes to handle parallel request loads      |
+| Automatic Worker Management | Auto-restarts failed workers to ensure application uptime            |
+| Flexible Worker Models      | Supports sync, async, gevent, eventlet, and threaded workers         |
+| Lightweight and Fast        | Minimal overhead with high throughput                                |
+| Nginx Friendly              | Designed to work behind reverse proxies for security and performance |
+| Highly Configurable         | Tune workers, threads, timeouts, logging, and environment settings   |
+| Cloud & Container Ready     | Ideal for Docker, Kubernetes, and scalable API deployments           |
 
 ---
+
+<a id="references"></a>
 
 ## References
 
@@ -89,10 +110,12 @@ Client → Nginx → Gunicorn → Python App
 
 ---
 
+<a id="end-note"></a>
+
 ## End Note
 
 Gunicorn is a **key component** of production-ready Python deployments.
-It allows your app to handle real-world traffic by providing concurrency, stability, and performance — while requiring minimal configuration effort.
+It allows applications to handle real-world traffic by providing concurrency, stability, and performance — while requiring minimal configuration effort.
 
 Paired with Nginx and container orchestration, Gunicorn forms the backbone of scalable backend systems.
 
