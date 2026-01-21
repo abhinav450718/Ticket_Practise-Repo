@@ -124,10 +124,7 @@ For questions, clarifications, or review feedback related to this documentation,
 | Links                                                                                        | Descriptions                        |
 | -------------------------------------------------------------------------------------------- | ----------------------------------- |
 | [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)       | Popular Migrate Tool Repository     |
-| [https://flywaydb.org/documentation](https://flywaydb.org/documentation)                     | Flyway – Database Migration Toolkit |
-| [https://www.liquibase.org/documentation](https://www.liquibase.org/documentation)           | Liquibase Migration Framework       |
-| [https://martinfowler.com/articles/evodb.html](https://martinfowler.com/articles/evodb.html) | Thought Leadership on DB Evolution  |
-| [https://dev.to/tags/migrations](https://dev.to/tags/migrations)                             | Blogs & Tutorials on Migrations     |
+
 
 ---
 
