@@ -112,7 +112,7 @@ For questions, clarifications, or review feedback related to this documentation,
 | ------------ | ------------------------------------------------------------------- |
 | Name         | Abhinav Sikarwar                                                    |
 | Role         | DevOps Engineer                                                     |
-| Email        | [abhinavsikarwar011@gmail.com](mailto:abhinavsikarwar011@gmail.com) |
+| Email        | [abhinav.sikarwar@mygurukulam.co](mailto:abhinav.sikarwar@mygurukulam.co) |
 | Team         | DevOps / Platform Engineering                                       |
 
 ---
