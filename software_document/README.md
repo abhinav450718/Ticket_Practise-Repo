@@ -10,6 +10,14 @@
 
 ---
 
+## Version History
+
+| Version | Date       | Description               | Author           |
+| ------- | ---------- | ------------------------- | ---------------- |
+| 1.0     | 2026-02-24 | Initial Software Template | Abhinav Sikarwar |
+
+---
+
 ## Table of Contents
 
 1. [Introduction & Purpose](#1-introduction--purpose)
@@ -19,24 +27,25 @@
 5. [Important Ports](#5-important-ports)
 6. [Software Overview](#6-software-overview)
 7. [Architecture](#7-architecture)
-8. [Installation / Setup](#8-installation--setup)
+8. [Step-by-Step Installation](#8-step-by-step-installation)
 9. [Post Setup Validation](#9-post-setup-validation)
 10. [Configuration](#10-configuration)
 11. [Maintenance](#11-maintenance)
 12. [Monitoring](#12-monitoring)
 13. [Disaster Recovery](#13-disaster-recovery)
-14. [Troubleshooting](#14-troubleshooting)
-15. [FAQ](#15-faq)
-16. [Contact Information](#16-contact-information)
-17. [References](#17-references)
+14. [High Availability](#14-high-availability)
+15. [Troubleshooting](#15-troubleshooting)
+16. [FAQ](#16-faq)
+17. [Contact Information](#17-contact-information)
+18. [References](#18-references)
 
 ---
 
 ## 1. Introduction & Purpose
 
-This document provides the technical guidelines required to deploy, configure, validate, and maintain the software. It defines the operational standards to ensure consistent implementation across environments.
+This document provides comprehensive technical documentation for the software, including deployment, configuration, validation, and operational procedures. It establishes standardized implementation practices to ensure consistency across development, staging, and production environments.
 
-The purpose of this software is to address defined business and technical requirements by delivering a reliable, scalable, and maintainable solution. This documentation ensures structured deployment, operational clarity, and streamlined troubleshooting for engineering and operations teams.
+The purpose of this software is to address defined business and technical requirements by delivering a reliable, scalable, and maintainable solution. This documentation supports structured deployment, operational clarity, governance compliance, and efficient lifecycle management.
 
 ---
 
@@ -44,6 +53,7 @@ The purpose of this software is to address defined business and technical requir
 
 | Feature | Description |
 | ------- | ----------- |
+|         |             |
 |         |             |
 
 ---
@@ -108,7 +118,7 @@ The purpose of this software is to address defined business and technical requir
 
 ### Diagram
 
-Insert architecture diagram here.
+Insert architecture diagram illustrating system components and interactions.
 
 ---
 
@@ -130,37 +140,72 @@ Response to Client
 
 ---
 
-## 8. Installation / Setup
+# 8. Step-by-Step Installation
 
-### Step 1 – Install Dependencies
+## Step 1: Install Software Dependencies
+
+Install all required system packages, runtime environments, and supporting tools prior to building the application.
 
 ```
 sudo apt update
-sudo apt install 
+sudo apt install <required-packages>
 ```
+
+Ensure all dependencies defined in the Pre-requisites section are successfully installed.
 
 ---
 
-### Step 2 – Clone Repository
+## Step 2: Build or Artifact Generation
+
+Clone the source repository and generate the deployable artifact.
 
 ```
-git clone 
-cd 
+git clone <repository-url>
+cd <project-directory>
 ```
+
+Execute the appropriate build command based on the technology stack:
+
+```
+<build-command>
+```
+
+Example:
+
+```
+mvn clean package
+# or
+npm install
+```
+
+Confirm that the build process completes without errors and generates the required artifact (JAR, WAR, binary, or container image).
 
 ---
 
-### Step 3 – Build Application
+## Step 3: Application Deployment
+
+Deploy or start the application using the appropriate command:
 
 ```
+<deployment-command>
 ```
 
----
-
-### Step 4 – Start / Deploy Application
+Example:
 
 ```
+java -jar application.jar
+# or
+docker-compose up -d
 ```
+
+### Deployment Verification
+
+After deployment:
+
+* Verify service status
+* Confirm required ports are listening
+* Access the application endpoint
+* Review logs for runtime errors
 
 ---
 
@@ -169,7 +214,7 @@ cd
 ### Service Status Verification
 
 ```
-systemctl status 
+systemctl status <service-name>
 ```
 
 ---
@@ -177,7 +222,7 @@ systemctl status
 ### Port Verification
 
 ```
-netstat -tulnp | grep 
+netstat -tulnp | grep <port>
 ```
 
 ---
@@ -193,67 +238,101 @@ curl http://<server-ip>:<port>
 ### Log Verification
 
 ```
-tail -f 
+tail -f <log-file>
 ```
+
+Successful validation confirms correct installation and operational readiness.
 
 ---
 
 ## 10. Configuration
 
-Configuration parameters should be defined using:
+Configuration parameters must be managed through:
 
 * Environment variables
 * Configuration files
-* Secure secret management
+* Secure secret management systems
 
-Hardcoded credentials must be avoided.
+Sensitive credentials must not be hardcoded within source code or configuration files.
 
 ---
 
 ## 11. Maintenance
 
+Maintenance activities include:
+
 * Service restart procedures
-* Version upgrade process
+* Controlled version upgrades
 * Backup scheduling
-* Log rotation management
+* Log rotation and archival
+
+All updates must follow defined change management and rollback procedures.
 
 ---
 
 ## 12. Monitoring
 
-* Health endpoint checks
-* Log monitoring
-* Resource utilization tracking
-* Alert configuration
+The system must be integrated with centralized logging and monitoring solutions to ensure proactive issue detection and operational stability.
+
+Monitoring should include:
+
+* Health endpoint validation
+* Log aggregation and analysis
+* CPU and memory utilization tracking
+* Alert configuration for critical thresholds
 
 ---
 
 ## 13. Disaster Recovery
 
-* Regular data backups
-* Restore procedure documentation
-* Rollback mechanism
-* Failover configuration (if applicable)
+The disaster recovery strategy must define:
+
+* Backup frequency and storage location
+* Data restoration procedures
+* Deployment rollback mechanism
+* Fallback system configuration
+
+Recovery procedures should be periodically tested to ensure reliability.
 
 ---
 
-## 14. Troubleshooting
+## 14. High Availability
+
+High availability must be implemented in alignment with the deployment architecture (VM-based, containerized, or Kubernetes-based).
+
+Mechanisms may include:
+
+* Load balancing across multiple instances
+* Replicated database or storage layers
+* Automatic failover configuration
+* Horizontal scaling strategies
+
+These measures ensure minimal service disruption during infrastructure or application failures.
+
+---
+
+## 15. Troubleshooting
+
+Common issues encountered during installation or runtime should be documented below:
 
 | Issue | Cause | Resolution |
 | ----- | ----- | ---------- |
 |       |       |            |
 
----
-
-## 15. FAQ
-
-| Question                     | Answer                                           |
-| ---------------------------- | ------------------------------------------------ |
-| What is this document about? | This document provides the technical guidelines. |
+Logs should be reviewed as the first step in diagnosing system issues.
 
 ---
 
-## 16. Contact Information
+## 16. FAQ
+
+| Question                     | Answer                                                                                 |
+| ---------------------------- | -------------------------------------------------------------------------------------- |
+| What is this document about? | This document provides technical guidelines for deployment and operational management. |
+| Is this application free?    | This software may require appropriate licensing or authorized organizational access.   |
+
+---
+
+## 17. Contact Information
 
 | Name             | Email                                                                     |
 | ---------------- | ------------------------------------------------------------------------- |
@@ -261,10 +340,12 @@ Hardcoded credentials must be avoided.
 
 ---
 
-## 17. References
+## 18. References
 
-| Reference Type | Link |
-| -------------- | ---- |
-|                |      |
+| Reference                   | Type                |
+| --------------------------- | ------------------- |
+| Jenkins Linux Install Guide | Format Reference    |
+| Amplifi Docs Table          | Structure Reference |
+| Overview vs Introduction    | Clarity Reference   |
 
 ---
