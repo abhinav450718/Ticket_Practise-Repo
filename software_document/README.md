@@ -1,313 +1,274 @@
-# Software Documentation Template
+# Software Documentation
 
 ---
 
-## Author Table
+## Authors
 
-| **Author**  | **Created on** | **Version** | **Last Edited On** | **Level** | **Reviewer**    |
-| ----------- | -------------- | ----------- | ------------------ | --------- | --------------- |
-| Abhinav Sikarwar | 01-02-2026| 1.0      | 01-02-2026       | Draft     | <Reviewer Name> |
+| Author           | Created    | Version | Last Edited On | L0 Reviewer  | L1 Reviewer    | L2 Reviewer |
+| ---------------- | ---------- | ------- | -------------- | ------------ | -------------- | ----------- |
+| Abhinav Sikarwar | 2026-01-24 | 1.0     | 2026-02-24     | Aayush Verma | Shreya Jaiswal | Ashwani     |
 
 ---
 
 ## Table of Contents
 
-1. Introduction
-2. Purpose
-3. Key Features
-4. Pre-requisites
-
-   * System Requirements
-   * Software Requirements
-5. Dependencies
-
-   * Build-time Dependencies
-   * Run-time Dependencies
-6. Important Ports
-7. Software Overview
-8. Architecture
-
-   * Diagram
-   * Data Flow
-9. Step-by-Step Installation
-10. Configuration
-11. Maintenance
-12. Monitoring
-13. Disaster Recovery
-14. Troubleshooting
-15. FAQ
-16. Contact Information
-17. References
+1. [Introduction & Purpose](#1-introduction--purpose)
+2. [Key Features](#2-key-features)
+3. [Pre-requisites](#3-pre-requisites)
+4. [Dependencies](#4-dependencies)
+5. [Important Ports](#5-important-ports)
+6. [Software Overview](#6-software-overview)
+7. [Architecture](#7-architecture)
+8. [Installation / Setup](#8-installation--setup)
+9. [Post Setup Validation](#9-post-setup-validation)
+10. [Configuration](#10-configuration)
+11. [Maintenance](#11-maintenance)
+12. [Monitoring](#12-monitoring)
+13. [Disaster Recovery](#13-disaster-recovery)
+14. [Troubleshooting](#14-troubleshooting)
+15. [FAQ](#15-faq)
+16. [Contact Information](#16-contact-information)
+17. [References](#17-references)
 
 ---
 
-## 1. Introduction
+## 1. Introduction & Purpose
 
-This document provides comprehensive technical documentation for the software. It outlines the software’s functionality, architecture, installation process, configuration guidelines, operational procedures, and maintenance practices.
+This document provides the technical guidelines required to deploy, configure, validate, and maintain the software. It defines the operational standards to ensure consistent implementation across environments.
 
-The objective of this document is to serve as a single reference guide for developers, DevOps engineers, system administrators, and reviewers involved in deployment and support activities.
-
----
-
-## 2. Purpose
-
-The purpose of this software is to fulfill specific business and technical requirements by providing a reliable and scalable solution. It addresses operational challenges, improves system efficiency, and supports seamless integration within the existing ecosystem.
-
-This documentation ensures:
-
-* Standardized deployment practices
-* Clear understanding of system architecture
-* Smooth onboarding of new team members
-* Efficient troubleshooting and maintenance
+The purpose of this software is to address defined business and technical requirements by delivering a reliable, scalable, and maintainable solution. This documentation ensures structured deployment, operational clarity, and streamlined troubleshooting for engineering and operations teams.
 
 ---
 
-## 3. Key Features
+## 2. Key Features
 
-* Scalable and modular architecture
-* Configurable deployment options
-* Secure and efficient resource utilization
-* Monitoring and logging support
-* Cloud and on-premise compatibility
+| Feature | Description |
+| ------- | ----------- |
+|         |             |
 
 ---
 
-## 4. Pre-requisites
+## 3. Pre-requisites
 
-### 4.1 System Requirements
+### System Requirements
 
-| Component        | Recommended Specification                           |
-| ---------------- | --------------------------------------------------- |
-| Processor        | Quad-core                                           |
-| RAM              | Minimum 4 GB                                        |
-| Disk             | Minimum 20 GB                                       |
-| Operating System | Ubuntu 22.04 LTS (or equivalent Linux distribution) |
+| Component | Specification |
+| --------- | ------------- |
+|           |               |
 
 ---
 
-### 4.2 Software Requirements
+### Software Requirements
 
-The following tools and software must be installed before proceeding with installation:
-
-* Git
-* Docker / Container Runtime (if applicable)
-* Required Runtime (Java / Node.js / Python as per application)
-* Cloud CLI tools (if deploying to cloud platform)
+| Software / Tool | Version |
+| --------------- | ------- |
+|                 |         |
 
 ---
 
-## 5. Dependencies
+## 4. Dependencies
 
-### 5.1 Build-time Dependencies
+### Build-time Dependencies
 
-These are required during build or packaging of the software.
-
-| Name        | Version   | Description                    |
-| ----------- | --------- | ------------------------------ |
-| <Tool Name> | <Version> | Used for building or packaging |
+| Name | Version | Description |
+| ---- | ------- | ----------- |
+|      |         |             |
 
 ---
 
-### 5.2 Run-time Dependencies
+### Run-time Dependencies
 
-These are required during execution of the software.
-
-| Name              | Version   | Description             |
-| ----------------- | --------- | ----------------------- |
-| <Dependency Name> | <Version> | Required during runtime |
+| Name | Version | Description |
+| ---- | ------- | ----------- |
+|      |         |             |
 
 ---
 
-## 6. Important Ports
+## 5. Important Ports
 
-| Port   | Direction | Description                             |
-| ------ | --------- | --------------------------------------- |
-| <Port> | Inbound   | Used for client access                  |
-| <Port> | Outbound  | Used for external service communication |
-
----
-
-## 7. Software Overview
-
-* **Software Name:** <Software Name>
-* **Version:** <Version>
-* **Architecture Type:** Monolithic / Microservice
-* **Deployment Model:** VM / Docker / Kubernetes
-* **Cloud Platform:** AWS / Azure / GCP / On-Prem
-* **Database (if applicable):** <Database Type>
-
-This section provides a high-level overview of the software architecture and deployment model.
+| Port | Direction | Description |
+| ---- | --------- | ----------- |
+|      |           |             |
 
 ---
 
-## 8. Architecture
+## 6. Software Overview
 
-### 8.1 Diagram
+| Attribute           | Details |
+| ------------------- | ------- |
+| Software Name       |         |
+| Version             |         |
+| Architecture Type   |         |
+| Deployment Model    |         |
+| Cloud Compatibility |         |
+
+---
+
+## 7. Architecture
+
+### Diagram
 
 Insert architecture diagram here.
-A simple block diagram illustrating components and their interactions is sufficient.
-
-Example:
-
-User → Load Balancer → Application → Database
 
 ---
 
-### 8.2 Data Flow
+### Data Flow Structure
 
-1. The client initiates a request.
-2. The request is received by the application or service layer.
-3. Business logic processes the request.
-4. Data is retrieved from or stored in the database/cache layer.
-5. The response is returned to the client.
+```
+Client Request
+      ↓
+Load Balancer / Gateway
+      ↓
+Application Service
+      ↓
+Business Logic Layer
+      ↓
+Database / Cache Layer
+      ↓
+Response to Client
+```
 
 ---
 
-## 9. Step-by-Step Installation
+## 8. Installation / Setup
 
-### Step 1: Install Required Dependencies
-
-Install necessary system packages and tools using appropriate package managers.
-
-Example:
+### Step 1 – Install Dependencies
 
 ```
 sudo apt update
-sudo apt install <package-name>
+sudo apt install 
 ```
 
 ---
 
-### Step 2: Clone the Repository
+### Step 2 – Clone Repository
 
 ```
-git clone <repository-url>
-cd <project-directory>
-```
-
----
-
-### Step 3: Build the Application
-
-Execute the build command according to the technology stack.
-
-Example:
-
-```
-mvn clean install
-# or
-npm install
+git clone 
+cd 
 ```
 
 ---
 
-### Step 4: Deploy / Run the Application
-
-Start the application using the appropriate command:
+### Step 3 – Build Application
 
 ```
-docker-compose up -d
-# or
-java -jar application.jar
 ```
 
 ---
 
-### Step 5: Verification
+### Step 4 – Start / Deploy Application
 
-Verify successful deployment by:
+```
+```
 
-* Checking service status
-* Accessing application endpoint
-* Reviewing logs
+---
+
+## 9. Post Setup Validation
+
+### Service Status Verification
+
+```
+systemctl status 
+```
+
+---
+
+### Port Verification
+
+```
+netstat -tulnp | grep 
+```
+
+---
+
+### Endpoint Verification
+
+```
+curl http://<server-ip>:<port>
+```
+
+---
+
+### Log Verification
+
+```
+tail -f 
+```
 
 ---
 
 ## 10. Configuration
 
-Configuration parameters are typically stored in:
+Configuration parameters should be defined using:
 
 * Environment variables
-* Configuration files (application.properties, config.yaml, etc.)
-* Secret management systems
+* Configuration files
+* Secure secret management
 
-Ensure sensitive information such as credentials and API keys are securely stored and not hard-coded.
+Hardcoded credentials must be avoided.
 
 ---
 
 ## 11. Maintenance
 
-Routine maintenance activities include:
-
-* Software updates and version upgrades
-* Restarting services
-* Log rotation and cleanup
-* Backup management
-
-Document version upgrade procedures and rollback plans before performing changes.
+* Service restart procedures
+* Version upgrade process
+* Backup scheduling
+* Log rotation management
 
 ---
 
 ## 12. Monitoring
 
-Monitoring ensures operational stability and performance tracking.
-
-Include:
-
-* Health check endpoints
-* Log file locations
-* Monitoring tools (Prometheus, Grafana, CloudWatch, etc.)
-* Alerting configuration
+* Health endpoint checks
+* Log monitoring
+* Resource utilization tracking
+* Alert configuration
 
 ---
 
 ## 13. Disaster Recovery
 
-A disaster recovery plan must include:
-
-* Backup frequency and storage location
-* Data restoration procedures
-* Rollback strategy
-* Failover mechanisms
-
-Ensure backups are tested periodically for integrity and reliability.
+* Regular data backups
+* Restore procedure documentation
+* Rollback mechanism
+* Failover configuration (if applicable)
 
 ---
 
 ## 14. Troubleshooting
 
-| Issue                       | Possible Cause                      | Resolution                    |
-| --------------------------- | ----------------------------------- | ----------------------------- |
-| Application not starting    | Port conflict or dependency missing | Verify ports and dependencies |
-| Database connection failure | Incorrect credentials               | Update configuration          |
-| Service crash               | Resource exhaustion                 | Check CPU/RAM usage           |
-
-Logs should be reviewed first during issue investigation.
+| Issue | Cause | Resolution |
+| ----- | ----- | ---------- |
+|       |       |            |
 
 ---
 
 ## 15. FAQ
 
-| Question                       | Answer                                     |
-| ------------------------------ | ------------------------------------------ |
-| Is this software scalable?     | Yes, horizontal scaling is supported.      |
-| Can it be deployed on cloud?   | Yes, it supports major cloud platforms.    |
-| Is containerization supported? | Yes, Docker-based deployment is supported. |
+| Question                     | Answer                                           |
+| ---------------------------- | ------------------------------------------------ |
+| What is this document about? | This document provides the technical guidelines. |
 
 ---
 
 ## 16. Contact Information
 
-| Name             | Email Address                                                     |
-| ---------------- | ----------------------------------------------------------------- |
-| Abhinav Sikarwar | abhinav.sikarwar@mygurukulam.co                                   |
+| Name             | Email                                                                     |
+| ---------------- | ------------------------------------------------------------------------- |
+| Abhinav Sikarwar | [abhinav.sikarwar@mygurukulam.co](mailto:abhinav.sikarwar@mygurukulam.co) |
 
 ---
 
 ## 17. References
 
-| Reference Type         | Link   |
-| ---------------------- | ------ |
-| Official Documentation |        |
-| Repository             |        |
-| Internal Guidelines    |        |
+| Reference Type | Link |
+| -------------- | ---- |
+|                |      |
+
+---
+
+
+* Improve formatting to look more enterprise-level
+* Or move to your next ticket 🚀
