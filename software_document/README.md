@@ -268,7 +268,3 @@ Hardcoded credentials must be avoided.
 |                |      |
 
 ---
-
-
-* Improve formatting to look more enterprise-level
-* Or move to your next ticket 🚀
