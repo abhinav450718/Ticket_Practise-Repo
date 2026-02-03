@@ -1,351 +1,213 @@
-# Software Documentation
+# Software Documentation Template
 
 ---
 
 ## Authors
 
-| Author           | Created    | Version | Last Edited On | L0 Reviewer  | L1 Reviewer    | L2 Reviewer |
-| ---------------- | ---------- | ------- | -------------- | ------------ | -------------- | ----------- |
-| Abhinav Sikarwar | 2026-01-24 | 1.0     | 2026-02-24     | Aayush Verma | Shreya Jaiswal | Ashwani     |
+| Author    | Created On | Version |  Last Edited On | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| --------- | ---------- | ------- |  -------------- | ----------- | ----------- | ----------- |
+| Abhinav Sikarwar | 02-02-2026 | 1.0     |  03-02-2026     | Aayush Verma            | Shreya Jaiswal            |Ashwani             |
 
 ---
 
-## Version History
+# Index
 
-| Version | Date       | Description               | Author           |
-| ------- | ---------- | ------------------------- | ---------------- |
-| 1.0     | 2026-02-24 | Initial Software Template | Abhinav Sikarwar |
-
----
-
-## Table of Contents
-
-1. [Introduction & Purpose](#1-introduction--purpose)
-2. [Key Features](#2-key-features)
-3. [Pre-requisites](#3-pre-requisites)
-4. [Dependencies](#4-dependencies)
-5. [Important Ports](#5-important-ports)
-6. [Software Overview](#6-software-overview)
-7. [Architecture](#7-architecture)
-8. [Step-by-Step Installation](#8-step-by-step-installation)
-9. [Post Setup Validation](#9-post-setup-validation)
-10. [Configuration](#10-configuration)
-11. [Maintenance](#11-maintenance)
-12. [Monitoring](#12-monitoring)
-13. [Disaster Recovery](#13-disaster-recovery)
-14. [High Availability](#14-high-availability)
-15. [Troubleshooting](#15-troubleshooting)
-16. [FAQ](#16-faq)
-17. [Contact Information](#17-contact-information)
-18. [References](#18-references)
+1. [Introduction](#1-introduction)
+2. [Purpose](#2-purpose)
+3. [Software Overview](#3-software-overview)
+4. [System Requirements](#4-system-requirements)
+5. [Dependencies](#5-dependencies)
+6. [Network & Port Requirements](#6-network--port-requirements)
+7. [Installation Guide](#7-installation-guide)
+8. [Configuration](#8-configuration)
+9. [Operations & Maintenance](#9-operations--maintenance)
+10. [Monitoring](#10-monitoring)
+11. [Backup & Recovery](#11-backup--recovery)
+12. [High Availability](#12-high-availability-if-applicable)
+13. [Disaster Recovery](#13-disaster-recovery-if-applicable)
+14. [Troubleshooting](#14-troubleshooting)
+15. [Contact Information](#15-contact-information)
+16. [References](#16-references)
 
 ---
 
-## 1. Introduction & Purpose
+# 1. Introduction
 
-This document provides comprehensive technical documentation for the software, including deployment, configuration, validation, and operational procedures. It establishes standardized implementation practices to ensure consistency across development, staging, and production environments.
-
-The purpose of this software is to address defined business and technical requirements by delivering a reliable, scalable, and maintainable solution. This documentation supports structured deployment, operational clarity, governance compliance, and efficient lifecycle management.
-
----
-
-## 2. Key Features
-
-| Feature | Description |
-| ------- | ----------- |
-|         |             |
-|         |             |
+This document provides comprehensive technical documentation for **<Software Name>**.
+It defines installation procedures, system requirements, configuration details, operational processes, and recovery mechanisms required for deployment and maintenance.
 
 ---
 
-## 3. Pre-requisites
+# 2. Purpose
 
-### System Requirements
-
-| Component | Specification |
-| --------- | ------------- |
-|           |               |
+The purpose of this document is to standardize documentation, ensure deployment clarity, and support operational maintainability.
 
 ---
 
-### Software Requirements
+# 3. Software Overview
 
-| Software / Tool | Version |
-| --------------- | ------- |
-|                 |         |
-
----
-
-## 4. Dependencies
-
-### Build-time Dependencies
-
-| Name | Version | Description |
-| ---- | ------- | ----------- |
-|      |         |             |
+| Attribute     | Details |
+| ------------- | ------- |
+| Software Name |         |
+| Version       |         |
+| Description   |         |
+| Repository    |         |
+| Maintainer    |         |
 
 ---
 
-### Run-time Dependencies
+# 4. System Requirements
 
-| Name | Version | Description |
-| ---- | ------- | ----------- |
-|      |         |             |
+## 4.1 Hardware Requirements
 
----
+| Component | Minimum Requirement |
+| --------- | ------------------- |
+| CPU       |                     |
+| RAM       |                     |
+| Storage   |                     |
 
-## 5. Important Ports
+## 4.2 Software Requirements
 
-| Port | Direction | Description |
-| ---- | --------- | ----------- |
-|      |           |             |
-
----
-
-## 6. Software Overview
-
-| Attribute           | Details |
-| ------------------- | ------- |
-| Software Name       |         |
-| Version             |         |
-| Architecture Type   |         |
-| Deployment Model    |         |
-| Cloud Compatibility |         |
+| Component                | Version |
+| ------------------------ | ------- |
+| Operating System         |         |
+| Runtime                  |         |
+| Database (if applicable) |         |
+| Additional Tools         |         |
 
 ---
 
-## 7. Architecture
+# 5. Dependencies
 
-### Diagram
-
-Insert architecture diagram illustrating system components and interactions.
-
----
-
-### Data Flow Structure
-
-```
-Client Request
-      ↓
-Load Balancer / Gateway
-      ↓
-Application Service
-      ↓
-Business Logic Layer
-      ↓
-Database / Cache Layer
-      ↓
-Response to Client
-```
+* Runtime dependencies
+* External libraries
+* Supporting services
+* Integration requirements
 
 ---
 
-# 8. Step-by-Step Installation
+# 6. Network & Port Requirements
 
-## Step 1: Install Software Dependencies
-
-Install all required system packages, runtime environments, and supporting tools prior to building the application.
-
-```
-sudo apt update
-sudo apt install <required-packages>
-```
-
-Ensure all dependencies defined in the Pre-requisites section are successfully installed.
+| Service | Port | Protocol | Purpose |
+| ------- | ---- | -------- | ------- |
+|         |      |          |         |
 
 ---
 
-## Step 2: Build or Artifact Generation
+# 7. Installation Guide
 
-Clone the source repository and generate the deployable artifact.
+## 7.1 Pre-Requisites
 
-```
-git clone <repository-url>
-cd <project-directory>
-```
+* Required access
+* Necessary permissions
+* Installed dependencies
 
-Execute the appropriate build command based on the technology stack:
+## 7.2 Installation Steps
 
-```
-<build-command>
-```
+1. Obtain or clone the repository
+2. Install dependencies
+3. Configure environment variables
+4. Start the service
 
-Example:
+## 7.3 Verification
 
-```
-mvn clean package
-# or
-npm install
-```
-
-Confirm that the build process completes without errors and generates the required artifact (JAR, WAR, binary, or container image).
+* Validate service status
+* Confirm expected output
 
 ---
 
-## Step 3: Application Deployment
+# 8. Configuration
 
-Deploy or start the application using the appropriate command:
-
-```
-<deployment-command>
-```
-
-Example:
-
-```
-java -jar application.jar
-# or
-docker-compose up -d
-```
-
-### Deployment Verification
-
-After deployment:
-
-* Verify service status
-* Confirm required ports are listening
-* Access the application endpoint
-* Review logs for runtime errors
-
----
-
-## 9. Post Setup Validation
-
-### Service Status Verification
-
-```
-systemctl status <service-name>
-```
-
----
-
-### Port Verification
-
-```
-netstat -tulnp | grep <port>
-```
-
----
-
-### Endpoint Verification
-
-```
-curl http://<server-ip>:<port>
-```
-
----
-
-### Log Verification
-
-```
-tail -f <log-file>
-```
-
-Successful validation confirms correct installation and operational readiness.
-
----
-
-## 10. Configuration
-
-Configuration parameters must be managed through:
-
+* Configuration file location
+* Key parameters
 * Environment variables
-* Configuration files
-* Secure secret management systems
-
-Sensitive credentials must not be hardcoded within source code or configuration files.
+* Logging configuration
 
 ---
 
-## 11. Maintenance
+# 9. Operations & Maintenance
 
-Maintenance activities include:
+## 9.1 Service Management
 
-* Service restart procedures
-* Controlled version upgrades
-* Backup scheduling
-* Log rotation and archival
+* Start procedure
+* Stop procedure
+* Restart procedure
 
-All updates must follow defined change management and rollback procedures.
+## 9.2 Log Management
 
----
+* Log file location
+* Log rotation process
 
-## 12. Monitoring
+## 9.3 Upgrade Procedure
 
-The system must be integrated with centralized logging and monitoring solutions to ensure proactive issue detection and operational stability.
+* Pre-upgrade validation
+* Upgrade steps
+* Post-upgrade validation
 
-Monitoring should include:
+## 9.4 Rollback Procedure
 
-* Health endpoint validation
-* Log aggregation and analysis
-* CPU and memory utilization tracking
-* Alert configuration for critical thresholds
-
----
-
-## 13. Disaster Recovery
-
-The disaster recovery strategy must define:
-
-* Backup frequency and storage location
-* Data restoration procedures
-* Deployment rollback mechanism
-* Fallback system configuration
-
-Recovery procedures should be periodically tested to ensure reliability.
+* Rollback steps
+* Post-rollback validation
 
 ---
 
-## 14. High Availability
+# 10. Monitoring
 
-High availability must be implemented in alignment with the deployment architecture (VM-based, containerized, or Kubernetes-based).
-
-Mechanisms may include:
-
-* Load balancing across multiple instances
-* Replicated database or storage layers
-* Automatic failover configuration
-* Horizontal scaling strategies
-
-These measures ensure minimal service disruption during infrastructure or application failures.
+* Health check mechanism
+* Monitoring tools
+* Alerting configuration
 
 ---
 
-## 15. Troubleshooting
+# 11. Backup & Recovery
 
-Common issues encountered during installation or runtime should be documented below:
+## 11.1 Backup Procedure
 
-| Issue | Cause | Resolution |
-| ----- | ----- | ---------- |
-|       |       |            |
+* Backup steps
+* Backup frequency
 
-Logs should be reviewed as the first step in diagnosing system issues.
+## 11.2 Restore Procedure
 
----
-
-## 16. FAQ
-
-| Question                     | Answer                                                                                 |
-| ---------------------------- | -------------------------------------------------------------------------------------- |
-| What is this document about? | This document provides technical guidelines for deployment and operational management. |
-| Is this application free?    | This software may require appropriate licensing or authorized organizational access.   |
+* Restoration steps
+* Validation process
 
 ---
 
-## 17. Contact Information
+# 12. High Availability
 
-| Name             | Email                                                                     |
-| ---------------- | ------------------------------------------------------------------------- |
-| Abhinav Sikarwar | [abhinav.sikarwar@mygurukulam.co](mailto:abhinav.sikarwar@mygurukulam.co) |
+* Redundancy setup
+* Load balancing
+* Failover mechanism
+
+---
+
+# 13. Disaster Recovery
+
+* Recovery strategy
+* Recovery steps
+* Validation process
 
 ---
 
-## 18. References
+# 14. Troubleshooting
 
-| Reference                   | Type                |
-| --------------------------- | ------------------- |
-| Jenkins Linux Install Guide | Format Reference    |
-| Amplifi Docs Table          | Structure Reference |
-| Overview vs Introduction    | Clarity Reference   |
+| Issue | Possible Cause | Resolution |
+| ----- | -------------- | ---------- |
+|       |                |            |
 
 ---
+
+# 15. Contact Information
+
+| Role    | Name | Email |
+| ------- | ---- | ----- |
+| Owner   |      |       |
+| Support |      |       |
+
+---
+
+# 16. References
+
+* Please follow the given link for reference.
+
+
