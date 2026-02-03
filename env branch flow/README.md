@@ -81,7 +81,7 @@ Code promotion follows a structured upward movement through environments.
 
 This ensures only validated code reaches production.
 
-<img width="745" height="568" alt="image" src="https://github.com/user-attachments/assets/f595192d-64b1-4ba0-be01-76da4050e567" />
+<img width="372" height="343" alt="image" src="https://github.com/user-attachments/assets/ff2d944c-c135-4c3c-bf8b-9abba8e254ec" />
 
 
 ---
