@@ -6,7 +6,7 @@
 
 | Author           | Created    | Version | Last Edited On | L0 Reviewer  | L1 Reviewer    | L2 Reviewer |
 | ---------------- | ---------- | ------- | -------------- | ------------ | -------------- | ----------- |
-| Abhinav Sikarwar | 2026-02-02 | 1.0     | 2026-02-03     | Aayush Verma | Shreya Jaiswal | Ashwin      |
+| Abhinav Sikarwar | 2026-02-02 | 1.0     | 2026-02-03     | Aayush Verma | Shreya Jaiswal | Ashwani     |
 
 ---
 
@@ -184,7 +184,7 @@ Non-compliance with naming conventions, commit formatting, or tagging standards 
 
 ## 8. Contact Information
 
-| Name             | Email                                                                     |
+|  Author's  Name  | Email                                                                     |
 | ---------------- | ------------------------------------------------------------------------- |
 | Abhinav Sikarwar | [abhinav.sikarwar@mygurukulam.co](mailto:abhinav.sikarwar@mygurukulam.co) |
 
