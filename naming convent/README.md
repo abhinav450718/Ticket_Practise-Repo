@@ -1,4 +1,4 @@
-# Project VCS Policies – Naming Conventions
+# Naming Conventions
 
 ---
 
@@ -6,7 +6,7 @@
 
 | Author           | Created    | Version | Last Edited On | L0 Reviewer  | L1 Reviewer    | L2 Reviewer |
 | ---------------- | ---------- | ------- | -------------- | ------------ | -------------- | ----------- |
-| Abhinav Sikarwar | 2026-02-02 | 1.0     | 2026-02-02     | Aayush Verma | Shreya Jaiswal | Ashwin      |
+| Abhinav Sikarwar | 2026-02-02 | 1.0     | 2026-02-03     | Aayush Verma | Shreya Jaiswal | Ashwin      |
 
 ---
 
