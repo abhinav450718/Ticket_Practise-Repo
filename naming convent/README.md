@@ -194,7 +194,7 @@ Non-compliance with naming conventions, commit formatting, or tagging standards 
 
 | Reference                            | Link                                                                                                                                                                                                                               |
 | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Git Branch Naming Conventions (2025) | [https://medium.com/@jaychu259/git-branch-naming-conventions-2025-the-ultimate-guide-for-developers-5f8e0b3bb9f7](https://medium.com/@jaychu259/git-branch-naming-conventions-2025-the-ultimate-guide-for-developers-5f8e0b3bb9f7) |
+| Git Branch Naming Conventions (2025) | [Naming Convention Documentation](https://medium.com/@jaychu259/git-branch-naming-conventions-2025-the-ultimate-guide-for-developers-5f8e0b3bb9f7) |
 
 ---
 
