@@ -6,7 +6,7 @@
 
 | Author           | Created    | Version | Last Edited On | L0 Reviewer | L1 Reviewer | L2 Reviewer |
 | ---------------- | ---------- | ------- | -------------- | ----------- | ----------- | ----------- |
-| Abhinav Sikarwar | 2026-02-03 | 1.0     | 2026-02-03     |             |             |             |
+| Abhinav Sikarwar | 2026-02-03 | 1.0     | 2026-02-03     |Aayush Verma |Shreya Jaiswal|Ashwani     |
 
 ---
 
@@ -40,8 +40,6 @@ Database Release Management refers to the structured process of planning, versio
 | Rollback Capability       | Enables recovery from failed deployments                          |
 | Environment Consistency   | Prevents schema drift across development, staging, and production |
 | Compliance & Audit        | Supports audit logging and governance requirements                |
-| Controlled Deployments    | Ensures structured promotion of DB changes                        |
-| Risk Mitigation           | Reduces production failures caused by unmanaged schema changes    |
 
 ---
 
