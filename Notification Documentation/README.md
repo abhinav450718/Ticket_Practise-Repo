@@ -135,7 +135,5 @@ Adhering to structured setup procedures and best practices reduces failure rates
 | Reference                    | Link                                                                                           |
 | ---------------------------- | ---------------------------------------------------------------------------------------------- |
 | SMTP Protocol Documentation  | [https://datatracker.ietf.org/doc/html/rfc5321](https://datatracker.ietf.org/doc/html/rfc5321) |
-| REST API Best Practices      | [https://restfulapi.net](https://restfulapi.net)                                               |
-| Secure Credential Management | [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)               |
 
 ---
