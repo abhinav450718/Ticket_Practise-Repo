@@ -120,8 +120,6 @@ Tool selection should depend on:
 
 | Reference                           | Link                                                                                                                                                 |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Flyway Documentation                | [Flyway Documentation](https://flywaydb.org/documentation)                                                                             |
 | Liquibase Documentation             | [Liquibase Documentation](https://www.liquibase.org/documentation)                                                                   |
 | Redgate SQL Change Automation       | [Redgate SQL Change Automation](https://www.red-gate.com/products/sql-development/sql-change-automation/) |
-| Martin Fowler – Database Migrations | [Martin Fowler – Database Migrations](https://martinfowler.com/articles/evodb.html)                                                         |
 | CI/CD for Databases                 | [ CI/CD for Databases](https://martinfowler.com/bliki/ContinuousDelivery.html)                                     |
