@@ -74,9 +74,9 @@ Redis is optimized for Linux-based environments and requires adequate memory pro
 
 | Component | Requirement     |
 | --------- | --------------- |
-| CPU       | 1 vCPU (x86_64) |
-| RAM       | 1 GB            |
-| Storage   | 1 GB free disk  |
+| CPU       | 8+ Cores |
+| RAM       | 32 GB or more    |
+| Storage   | RAM x 4 or more  |
 | Disk Type | SSD recommended |
 
 ### Recommended (Production)
