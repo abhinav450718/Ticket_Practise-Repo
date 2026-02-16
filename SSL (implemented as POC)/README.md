@@ -304,9 +304,10 @@ systemctl status certbot.timer
 
 ## 11. References
 
-| Description                          | Link                                                           |
-| ------------------------------------ | -------------------------------------------------------------- |
-| Intoduction to SSL                   | [SSL Doc](https://enterprise.arcgis.com/en/server/10.3/administer/linux/introduction-to-https.htm) |
-| Certbot Official Documentation       | [Certbot Doc](https://certbot.eff.org/docs/) |
+| Description                          | Link                                                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Let's Encrypt Official Documentation | [https://letsencrypt.org/docs/](https://letsencrypt.org/docs/)                                                                 |
+| Certbot Official Documentation       | [https://certbot.eff.org/docs/](https://certbot.eff.org/docs/)                                                                 |
+| SSL POC Implementation Reference     | [SSL POC README](https://github.com/Snaatak-Saarthi/Saarthi_Sprint1/blob/SCRUM-76-suraj/Domain_And_Security/SSL/POC/README.md) |
 
 ---
